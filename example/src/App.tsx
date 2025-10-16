@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { View, StyleSheet } from 'react-native';
-import { authorize, Scopes } from 'react-native-tiktok';
+import { authorize, Scopes } from 'expo-tiktok';
 
 export default function App() {
   useEffect(() => {

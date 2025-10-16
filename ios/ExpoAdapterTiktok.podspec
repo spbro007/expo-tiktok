@@ -15,11 +15,11 @@ Pod::Spec.new do |s|
     :tvos => '15.1'
   }
   s.swift_version  = '5.4'
-  s.source         = { git: 'https://github.com/Lg0gs/react-native-tiktok' }
+  s.source         = { git: 'https://github.com/spbro007/expo-tiktok' }
   s.static_framework = true
 
   s.dependency 'React-Core'
-  s.dependency 'react-native-tiktok'
+  s.dependency 'expo-tiktok'
 
   # Swift/Objective-C compatibility
   s.pod_target_xcconfig = {

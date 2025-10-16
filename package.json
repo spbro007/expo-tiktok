@@ -45,7 +45,7 @@
   "scripts": {
     "build:plugin": "tsc --build plugin",
     "clean:plugin": "expo-module clean plugin",
-    "example": "yarn workspace react-native-tiktok-example",
+    "example": "yarn workspace expo-tiktok-example",
     "test": "jest",
     "typecheck": "tsc",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
@@ -62,18 +62,17 @@
     "type": "git",
     "url": "git+https://github.com/spbro007/expo-tiktok.git"
   },
-  "author": "Lg0gs <lgogsadze93@gmail.com> (https://github.com/Lg0gs)",
+  "author": "spbro007 <lgogsadze93@gmail.com> (https://github.com/spbro007)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Lg0gs/react-native-tiktok/issues"
+    "url": "https://github.com/spbro007/expo-tiktok/issues"
   },
-  "homepage": "https://github.com/Lg0gs/react-native-tiktok#readme",
+  "homepage": "https://github.com/spbro007/expo-tiktok#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^17.0.2",
-    "@evilmartians/lefthook": "^1.5.0",
     "@expo/config-plugins": "9.0.14",
     "@react-native-community/cli": "15.0.1",
     "@react-native/eslint-config": "^0.73.1",

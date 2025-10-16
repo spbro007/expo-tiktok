@@ -2,7 +2,7 @@
   "compilerOptions": {
     "rootDir": ".",
     "paths": {
-      "react-native-tiktok": ["./src/index"]
+      "expo-tiktok": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,

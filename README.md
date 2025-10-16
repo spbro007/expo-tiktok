@@ -4,19 +4,19 @@
 
 
 <p align="center">
-	<a href="https://github.com/Lg0gs/react-native-tiktok/blob/HEAD/LICENSE">
-		<img alt="GitHub License" src="https://img.shields.io/github/license/Lg0gs/react-native-tiktok" />
+	<a href="https://github.com/spbro007/expo-tiktok/blob/HEAD/LICENSE">
+		<img alt="GitHub License" src="https://img.shields.io/github/license/spbro007/expo-tiktok" />
 	</a>
-	<a href="https://github.com/Lg0gs/react-native-tiktok/releases">
-		<img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/Lg0gs/react-native-tiktok" />
+	<a href="https://github.com/spbro007/expo-tiktok/releases">
+		<img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/spbro007/expo-tiktok" />
 	</a>
-	<a href="https://www.npmjs.com/package/react-native-tiktok">
-		<img alt="NPM Downloads" src="https://img.shields.io/npm/dm/react-native-tiktok?color=00bcd4" />
+	<a href="https://www.npmjs.com/package/expo-tiktok">
+		<img alt="NPM Downloads" src="https://img.shields.io/npm/dm/expo-tiktok?color=00bcd4" />
 	</a>
-	<img alt="NPM Unpacked Size" src="https://img.shields.io/npm/unpacked-size/react-native-tiktok?color=orange">
+	<img alt="NPM Unpacked Size" src="https://img.shields.io/npm/unpacked-size/expo-tiktok?color=orange">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?color=ab47bc" alt="PRs welcome!" />
-	<a href="https://github.com/Lg0gs/react-native-tiktok/stargazers">
-		<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Lg0gs/react-native-tiktok">
+	<a href="https://github.com/spbro007/expo-tiktok/stargazers">
+		<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/spbro007/expo-tiktok">
 	</a>
 </p>
 
@@ -33,11 +33,11 @@ Check [this](https://medium.com/@fashad.ahmed20/how-to-implement-universal-links
 
 ## Install
 
-> npm install react-native-tiktok
+> npm install expo-tiktok
 
 or
 
-> yarn add react-native-tiktok
+> yarn add expo-tiktok
 
 
 `cd ios && pod install`
@@ -128,7 +128,7 @@ This step is pretty straightforward and includes modification of only `app.json`
   ...
   "plugins": [
     [
-      "react-native-tiktok",
+      "expo-tiktok",
       {
         "tiktokClientKey": "<YOUR_TIKTOK_CLIENT_KEY>"
       }
@@ -139,7 +139,7 @@ This step is pretty straightforward and includes modification of only `app.json`
 
 ## Usage
 ```js
-import { authorize, Scopes } from 'react-native-tiktok';
+import { authorize, Scopes } from 'expo-tiktok';
 
 authorize({
   redirectURI: '<YOUR_REDIRECT_URL>', // your universal link
