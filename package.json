@@ -1,6 +1,6 @@
 {
   "name": "expo-tiktok",
-  "version": "2.1.17",
+  "version": "2.1.18",
   "description": "Get authorized using TikTok 📱",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
